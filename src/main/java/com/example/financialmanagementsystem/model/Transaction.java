@@ -19,6 +19,18 @@ public class Transaction {
 
     private int amount;
 
-    private LocalDateTime localDateTime;
+    private Long user_id;
+
+    private Long bank_account_id;
+
+    private Long category_id;
+
+    private String transaction_type;
+
+    private LocalDateTime transaction_date;
+
+    private String merchant_name;
+
+    private String notes;
 
 }
